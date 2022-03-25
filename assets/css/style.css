@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #B91450;
+}
+
+.border_pink{
+    border: 1px solid #B91450;
+}
+
+.color_button{
+    color: #B91450;
+}
+
+.bg_button{
+    background-color: #CCCCCC;
+}
