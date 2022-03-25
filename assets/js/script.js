@@ -40,7 +40,8 @@ elementButton.addEventListener('click',
             document.querySelector(".sconto").innerHTML = "Prezzo Pieno";
         }
 
-        
+        //Refresh pagina per pulire il form
+
         const reset = document.querySelector('.reset');
         reset.addEventListener('click', function() {
             window.location.reload(true);
