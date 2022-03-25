@@ -12,7 +12,7 @@ elementButton.addEventListener('click',
         let codice_cp_random = Math.floor(Math.random() * 100000);
         document.querySelector(".codiceCp").innerHTML = codice_cp_random;
 
-        const nome_cognome = document.querySelector(".nome_cognome").value;
+        let nome_cognome = document.querySelector(".nome_cognome").value;
         document.querySelector(".valoreNome").innerHTML = nome_cognome;
         const numero_km = document.querySelector(".km").value;
         const lista = document.querySelector(".lista").value;
@@ -39,8 +39,21 @@ elementButton.addEventListener('click',
             document.querySelector(".prezzo").innerHTML = `${prezzo_biglietto} €`;
             document.querySelector(".sconto").innerHTML = "Prezzo Pieno";
         }
+
+        
+        const reset = document.querySelector('.reset');
+        reset.addEventListener('click', function() {
+            window.location.reload(true);
+        });
+
+
         }
+        
 );   
+
+
+
+
 
 
 

@@ -19,3 +19,12 @@ body{
 .bg_button{
     background-color: #CCCCCC;
 }
+
+.size{
+    height: 300px;
+}
+
+.bg_passeggero{
+    background-color: #C4C4C4;
+    height: 200px;
+}
